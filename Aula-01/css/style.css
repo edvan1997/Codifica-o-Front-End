@@ -9,7 +9,7 @@ body{
     background-color: black;
     color: white;
     padding: 10px 30px;
-    background:url('../imag/fundo.jpg') no-repeat;
+    background:url('../image/fundo.jpg') no-repeat;
     background-position: center;
     height: 100vh;
     font-family: sans-serif;
@@ -22,11 +22,15 @@ body{
     margin-top: 15px;
     color: black;
 }
+.cabecalho{
+    font-size: 1.8rem;
+}
 .cabecalho ul {
     height: 50px;
     background-color: #333;
     opacity: 0.7;
     border-radius: 10px;
+    padding: 25px 50px;
 }
 .cabecalho a {
     display: inline;
@@ -53,13 +57,14 @@ body{
     text-transform: uppercase;
     margin-top: 4px;
     border-radius: 15px;
+    transition: 0.7s all;
     
 }
 .menu li:hover{
-    transition: 0.8 all;
+    transition: 0.7s all;
     background-color: white;
     color: black;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .contato{
     padding: 20px;
@@ -112,5 +117,47 @@ body{
     display:inline-block ;
     margin: 6rem
 }
+@media (max-width: 798px){
 
+.cabecalho ul{
+    font-size: 1.8rem;
+    width:100%;
+    margin:0;
+    padding: 8px;
+    text-align: center;
+}
+.menu{
+    display: none;
+}
+.main-titulo{
+    display: block;
+    position: relative;
+    width: 100%;
+    font-size: 2rem
+}
+.contato{
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    padding: 0px;
+}
+.main{
+    margin: 0;
+    text-align: center;
+    font-size: 1.9rem;
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+}
+.container{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+}
     
