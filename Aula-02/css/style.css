@@ -28,7 +28,7 @@ body{
     text-decoration: none;
     color: black;
     font-weight: bold;
-    margin-left: 20px;
+    right:5px;
 }
 .menu{
     float: right;
@@ -67,11 +67,19 @@ body{
 }
 @media(max-width: 793px){
 .cabeca{
-    text-align: center;
-    width: 450px;
+    /* text-align: center; */
+    width: 100%;
+
 }
-.cabeca ul{
+.logo{
+    margin-left: -6px;
+}
+/* .cabeca ul{
   
+} */
+.menu{
+    font-size: 10px;
+    display: none;
 }
 .imagem{
     position: absolute;
