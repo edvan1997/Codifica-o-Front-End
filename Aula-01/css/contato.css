@@ -1,0 +1,41 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(https://www.contioutra.com/content/uploads/2016/06/aurora-boreal_4.jpg)no-repeat;
+    padding: 0;
+}
+.container{
+    text-align: center;
+}
+nav{
+    padding: 10px 20px;
+}
+.contatos{
+    outline: none;
+    border-radius: 13px;
+    border: none;
+    padding: 5px;
+    font-size: 1.4rem;
+    padding-left:10px;
+    padding-right:10px;
+    display: inline-block ;
+}
+.contatos label{
+    text-align: right;
+    float: left;
+    width: 10%;
+    display: inline-block !important;
+}
+.contatos, textarea{
+    padding: 30px 20px;
+}
+
+.main h3{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff4f;
+    
+}

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(https://images6.alphacoders.com/108/thumb-1920-1083878.png)no-repeat;
+    padding: 0;
+}
+nav{
+    padding:10px 20px ;
+}
+.sobre{
+    font-size: 1rem;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 980px;
+    margin: 5rem auto;
+}
+.sobre h3{
+    font-size: 3rem;
+}
+.sobre p{
+    font-size: 2rem;
+}
+.main{
+    height: auto;
+    width: 100%;
+    margin: 0;
+    
+}

@@ -5,18 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Aula 01</title>
+    <link rel="stylesheet" href="css/contato.css">
+    <title>Contato</title>
 </head>
 <body>
-    <div class="slide" src="imag/Test imagem.png"></div>
     <header class="cabecalho">
         <nav>
             <ul>
                 <a href="#" class="logo">Zato</a>
                 <div class="menu">
-                    <a href="index" class="ativo"><li>Home</li></a>
-                    <a href="sobre"><li >Sobre</li></a>
-                    <a href="contato"><li>Contato</li></a>
+                    <a href="index"><li>Home</li></a>
+                    <a href="sobre" ><li>Sobre</li></a>
+                    <a href="contato"><li class="ativo">Contato</li></a>
                     <a href="politica-privacidade"><li>Politica de privacidade</li></a>
                 </div>
             </ul>
@@ -26,26 +26,25 @@
        
         <div class="container">
             <div class="main">
-                <h3 class="titulo-main">Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
-                <p class="paragrafo-main">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-            </div>
-            <form id="contato" class="contato">
-                <label for="nome">Nome</label>
-                <input type="text" id="nome" name="name" required placeholder="Nome">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur harum quis animi,a eius rem voluptas.</h3>
+                <div class="contatos">
+                    <form action="">
+                        <label for="nome">Nome</label>
+                <input type="text" id="nome" name="name" required placeholder="Nome"><br>
                 <label for="sobrenome">Sobrenome</label>
-                <input type="text" id="sobrenome" name="sobrenome" required placeholder="Sobrenome">
-                <label for="cidade">Cidade</label>
-                <input type="text" id="cidade" name="cidade" required placeholder="Cidade">
-                <label for="estado">Estado</label>
-                <input type="text" id="estado" name="estado" required placeholder="Estado">
+                <input type="text" id="sobrenome" name="sobrenome" required placeholder="Sobrenome"><br>
                 <label for="email">Email</label>
-                <input type="text" id="email" name="email" required placeholder="Email">
+                <input type="text" id="email" name="email" required placeholder="Email"><br>
                 <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone" name="telefone" required placeholder="Telefone">
+                <input type="tel" id="telefone" name="telefone" required placeholder="Telefone"><br>
                 <label for="mensagem">Mensagem</label>
                 <textarea name="mensagem" id="mensagem" required placehold="Digite sua mensagem ..." ></textarea>
                 <input type="submit" name="enviar" class="enviar" value="enviar" >
-            </form>
+                    </form>
+                    
+                </div>
+            </div>
+       
         </div>
        
     </div>

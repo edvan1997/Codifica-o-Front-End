@@ -7,7 +7,7 @@
 }
 body{
     color: white;
-    padding: 10px 30px;
+    /* padding: 10px 30px; */
     background:url('../image/fundo.jpg') no-repeat;
     background-position: center;
     
@@ -25,6 +25,10 @@ body{
 .cabecalho{
     font-size: 1.8rem;
 }
+.ativo{
+    color: black;
+    background-color: white ;
+}
 .cabecalho ul {
     height: 50px;
     background-color: #333;
@@ -38,8 +42,10 @@ body{
     text-decoration: none;
     color: white;
     font-weight: 700;
-    font-size: 4rem;
     margin-left: 20px;
+}
+.logo{
+    font-size: 4rem;
 }
 .cabecalho a:hover{
     transition: 0.6s all;
@@ -50,6 +56,7 @@ body{
     float: right;
     width: auto;
     
+    
 }
 
 .menu li{
@@ -58,11 +65,12 @@ body{
     padding: 10px;
     display: inline-block;
     letter-spacing: 1.5px;
-    margin-right: 7px;
+    margin-right: 10px;
     text-transform: uppercase;
     margin-top: 4px;
     border-radius: 15px;
     transition: 0.7s all;
+    font-size: 1rem;
     
 }
 .menu li:hover{
@@ -217,7 +225,7 @@ body{
     }
 }
 .rodape{
-    padding: 5px;
+    padding: 2px;
     text-align: center;
     background-color: black;
     width: 100%vw;
