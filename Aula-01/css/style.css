@@ -1,0 +1,233 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    color: white;
+    /* padding: 10px 30px; */
+    background:url('../image/fundo.jpg') no-repeat;
+    background-position: center;
+    
+    font-family: sans-serif;
+    background-color: black;
+}
+
+/* .texto-esquerda{
+    position: absolute;
+    bottom: -125px;
+    margin: 5px;
+    margin-top: 15px;
+    color: black;
+} */
+.cabecalho{
+    font-size: 1.8rem;
+}
+.ativo{
+    color: black;
+    background-color: white ;
+}
+.cabecalho ul {
+    height: 50px;
+    background-color: #333;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 25px 50px;
+    box-shadow: 0px 0px 5px black;
+}
+.cabecalho a {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.logo{
+    font-size: 4rem;
+}
+.cabecalho a:hover{
+    transition: 0.6s all;
+    color: skyblue;
+    text-shadow: 0px 0px 5px skyblue ;
+}
+.menu{
+    float: right;
+    width: auto;
+    
+    
+}
+
+.menu li{
+    list-style: none;
+    list-style-type: none;
+    padding: 10px;
+    display: inline-block;
+    letter-spacing: 1.5px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    margin-top: 4px;
+    border-radius: 15px;
+    transition: 0.7s all;
+    font-size: 1rem;
+    
+}
+.menu li:hover{
+    transition: 0.7s all;
+    background-color: white;
+    color: black;
+    
+}
+.container{
+    height: 100vh;
+
+}
+
+.contato{
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 4px black;
+    /* border: 2px solid black; */
+    margin: 20px;
+    position: absolute;
+    width: 450px;
+    top: 155px;
+    right: 100px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 1.9rem;
+    background-color: #00000091;
+}
+.contato label, .contato textarea{
+    display: block;
+    width: 100%;
+}
+
+.contato input, .contato textarea{
+    outline: none;
+    border-radius: 13px;
+    border: none;
+    padding: 5px;
+    width: 70%;
+    font-size: 1.4rem;
+    padding-left:10px;
+    padding-right:10px;
+    transition: 0.7s all;
+}
+.contato input:focus, .contato textarea:focus{
+    transition: 0.7s all;
+    background-color: skyblue;
+}
+.contato input:hover, .contato textarea:hover{
+    transition: 0.7s all;
+    box-shadow: 0px 0px 15px skyblue;
+    
+}
+.contato textarea{
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.enviar{
+    width: 40%;
+    margin-top: 10px;
+    transition: 0.7s all
+}
+.enviar:hover{
+    transition: 0.7s all;
+    color: white;
+    background-color: rgb(59, 59, 59);
+}
+.contato input[type="submit"]{
+    width: 40%;
+    margin-top: 10px;
+
+}
+.main{
+    font-size: 3rem;
+    color: black;
+    width: 60%;
+    background-color: #0000;
+    display:inline-block ;
+    margin: 6rem;
+}
+@media (max-width:1280px){
+    .cabecalho ul{        
+        font-size: 1.2rem;
+        height: auto;
+    }
+   .main{
+        font-size: 1.8rem;
+        margin: 26px;
+        width: 55%;
+        padding: 0;
+    }
+    .contato{
+        font-size: 1.8rem;
+        margin: 26px;
+        width: 30%;
+        padding: 0;
+    }
+}
+@media(min-height:1366px){
+    body{
+        height:100%;
+    }
+}
+@media (max-width: 798px){
+
+    .cabecalho ul{
+        font-size: 1.8rem;
+        width:100%;
+        margin:0;
+        padding: 8px;
+        text-align: center;
+    }
+    .menu{
+        display: none;
+    }
+    .main-titulo{
+        display: block;
+        position: relative;
+        width: 100%;
+        font-size: 2rem
+    }
+    .contato{
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        font-size: 1.4rem;
+        padding: 0px;
+    }
+    .main{
+        margin: 0;
+        text-align: center;
+        font-size: 1.9rem;
+        width: 100%;
+        margin-top: 12px;
+        margin-bottom: 12px;
+
+    }
+    .container{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
+@media (max-width:320px){
+    .cabecalho ul{
+        height: auto;
+    }
+}
+.rodape{
+    padding: 2px;
+    text-align: center;
+    background-color: black;
+    width: 100%vw;
+    margin: auto;
+}

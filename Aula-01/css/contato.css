@@ -1,0 +1,78 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(https://www.10wallpaper.com/wallpaper/1366x768/1506/Milky_Way_At_Night-Nature_HD_Wallpaper_1366x768.jpg)no-repeat;
+    padding: 0;
+}
+
+nav{
+    padding: 10px 20px;
+}
+.container{
+    text-align: center;
+}
+.main{
+    color: white;
+}
+fieldset{
+    border: 0;
+}
+.form-group{
+    width: 600px;
+    margin: 8px;
+   
+}
+.form-col {
+    float: left;
+    padding: 6px;
+    margin-right: 10px;
+}
+
+.form-col-1 {
+    width: 8.33%;
+}
+
+.form-col-2 {
+    width: 16.66%;
+}
+
+.form-col-3 {
+    width: 25%;
+}
+
+.form-col-4 {
+    width: 33.32%;
+}
+
+.form-control {
+    width: 100%;
+}
+input, textarea{
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    margin:10px ;
+    padding: 5px;
+}
+textarea{
+    height: 50px;
+    max-height: 150px;
+    max-width: 400px;
+    min-width: 50px ;
+    min-height: 50px;
+}
+input[type="submit"]{
+    width: 60px ;
+    height: 30px;
+}
+.main h3{
+    width: 700px;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff4f;
+    
+}
