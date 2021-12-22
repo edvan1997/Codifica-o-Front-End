@@ -25,10 +25,10 @@ body{
 .cabecalho{
     font-size: 1.8rem;
 }
-.ativo{
-    color: black;
-    background-color: white ;
+nav{
+    padding:10px 20px ;
 }
+
 .cabecalho ul {
     height: 50px;
     background-color: #333;
@@ -43,6 +43,10 @@ body{
     color: white;
     font-weight: 700;
     margin-left: 20px;
+}
+.ativo{
+    color: black;
+    background-color: white;
 }
 .logo{
     font-size: 4rem;
@@ -230,4 +234,11 @@ body{
     background-color: black;
     width: 100%vw;
     margin: auto;
+}
+canvas{
+    width: 100%;
+    height: 100%vh;
+    position: absolute;
+    top: 0;
+    z-index: -1;
 }

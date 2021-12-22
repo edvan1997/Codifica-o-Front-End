@@ -28,18 +28,31 @@
             <div class="main">
                 <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur harum quis animi,a eius rem voluptas.</h3>
                 <div class="contatos">
-                    <form action="">
-                        <label for="nome">Nome</label>
-                <input type="text" id="nome" name="name" required placeholder="Nome"><br>
-                <label for="sobrenome">Sobrenome</label>
-                <input type="text" id="sobrenome" name="sobrenome" required placeholder="Sobrenome"><br>
-                <label for="email">Email</label>
-                <input type="text" id="email" name="email" required placeholder="Email"><br>
-                <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone" name="telefone" required placeholder="Telefone"><br>
-                <label for="mensagem">Mensagem</label>
-                <textarea name="mensagem" id="mensagem" required placehold="Digite sua mensagem ..." ></textarea>
-                <input type="submit" name="enviar" class="enviar" value="enviar" >
+                    <form >
+                        <fieldset>
+                            <div class="form-group">
+                                <div class="form-col form-col-3"><label for="nome">Nome</label>
+                                <input type="text" id="nome" name="name" required placeholder="Nome"class="form-control">
+                                </div>
+                                <div class="form-col form-col-3"><label for="sobrenome">Sobrenome</label>
+                                <input type="text" id="sobrenome" name="sobrenome" required placeholder="Sobrenome"class="form-control">
+                                </div>
+                                <div class="form-col form-col-3"><label for="email">Email</label>
+                                <input type="text" id="email" name="email" required placeholder="Email"class="form-control">
+                                </div>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div class="form-group">
+                                <div class="form-col form-col-3"> <label for="telefone">Telefone</label>
+                                <input type="tel" id="telefone" name="telefone" required placeholder="Telefone"class="form-control">
+                                </div>
+                                <div class="form-col form-col-2"><label for="mensagem">Mensagem</label>
+                                <textarea name="mensagem" id="mensagem" required placehold="Digite sua mensagem ..." class="form-control"></textarea>
+                                <input type="submit" name="enviar" class="enviar" value="enviar">
+                                </div>
+                            </div>
+                        </fieldset>
                     </form>
                     
                 </div>
