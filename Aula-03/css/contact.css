@@ -5,19 +5,35 @@
     padding: 0;
 }
 fieldset{
-    margin-top: 100px;
+    border: none;
+    background-color: rgba(87, 85, 82, 0.801);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+    width: 300px;
 }
-.col{
-    display: grid;
-    grid-template-columns: 200px;
+.contact{
+    margin: 0 auto;
+    margin-left: 800px;
+    margin-top: 108px;
 }
-.col1{
-    display: grid;
-    grid-template-columns: 200px;
+.col-form{
+    
+    width: 300px;
+    padding: 5px;
+    margin-right: 30px;
 }
-.col2{
-    display: grid;
-    grid-template-columns: 200px;
+label,input{
+    display: block;
+    padding: 10px;
+    font-weight: bolder;
+}
+input{
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
 }
 
 

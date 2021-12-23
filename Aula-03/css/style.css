@@ -9,6 +9,13 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     color: white;
 }
+ul{
+    position: absolute;
+}
+.ativo{
+    background-color: white;
+    color: black;
+}
 .estrutura{
     margin-top: 150px;
     background-color: #960606;
@@ -55,12 +62,14 @@ body{
     list-style-type: none;
     display: inline-block;
     padding: 10px;
+    transition: 0.7 all;
     
 }
-.titulo{
+
+/* .titulo{
     /* margin-top: 166px; */
     /* margin-left: 157px; */
-}
+
 .titulo h2{
     margin: 77px;
     margin-top: 126px;
@@ -89,4 +98,5 @@ input[type="submit"]{
 }
 .icon{
     float: right;
+    margin:30px;
 }
