@@ -244,24 +244,159 @@ span{
     color: rebeccapurple;
 }
 
-.icon-seta{
+#icon{
     position: absolute;
-    left: 29%;
+    left: 28%;
     top: 75%;
-    background-color: yellow;
+    color: gold;
     border-radius: 20px;
+    font-size: 2.5rem;
 }
-.icon-seta1{
+#icon1{
     position: absolute;
-    left: 63%;
+    left: 62%;
     top: 75%;
-    background-color: yellow;
+    color: gold;
     border-radius: 20px;
+    font-size: 2.5rem;
 }
-.icon-seta2{
+#icon2{
     position: absolute;
-    left: 96%;
+    left: 95%;
     top: 75%;
-    background-color: yellow;
+    color: gold;
     border-radius: 20px;
+    font-size: 2.5rem;
+}
+.far:hover{
+   fill: black;
+   background-color: gray;
+}
+.secao-4{
+    background-color: url("../image/background.jpg"),rgb(0, 0, 0, 0.4);
+    background-repeat: no-repeat;
+
+}
+.section-group-4{
+    position: relative;
+    height: 690px;
+    
+}
+.section-group-4 h3{
+    color: rebeccapurple;
+    font-size: 20px;
+    margin-left: 14%;
+    text-transform: uppercase;
+}
+.section-group-4 h2{
+    font-size: 3rem;
+    color: white;
+    margin-left: 14%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.far {
+    position: absolute;
+    left: 70%;
+    color: gold;
+    font-size: 2.5rem;
+    top: 8%;
+}
+.testimonial-1{
+    display: inline-block;
+    position: relative;
+    width: 450px;
+    padding: 15px;
+    background-color: #00000029;
+    margin-left: 14%;
+    border-radius: 7px;
+    margin-top: 6%;
+}
+.photo-perfil{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.section-group-4 h4{
+    color: white;
+    position: absolute;
+    left: 115px;
+    top: 31px;
+    font-size: 25px;
+}
+.section-group-4 h6{
+    color: dimgrey;
+    position: absolute;
+    left: 115px;
+    top: 69px;
+    font-size: 14px;
+}
+.section-group-4 p{
+    color: floralwhite;
+    margin-top: 18px;
+
+}
+.fas {
+    color: gold;
+    position: absolute;
+    top: 25%;
+    left: 73%;
+}
+.fas1 {
+    color: gold;
+    position: absolute;
+    top: 25%;
+    left: 73%;
+}
+#star-1{
+    left: 77%;
+}
+#star-2{
+    left: 81%;
+
+}
+#star-3{
+    left: 85%;
+
+}
+#star-4{
+    left: 89%;
+
+}
+.testimonial-2{
+    display: inline-block;
+    position: relative;
+    width: 450px;
+    padding: 15px;
+    background-color: #00000029;
+    margin-left: 3%;
+    border-radius: 7px;
+    margin-top: 6%;
+}
+.photo-perfil-1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.testimonial-3{
+    display: inline-block;
+    position: relative;
+    width: 450px;
+    padding: 15px;
+    background-color: #00000029;
+    margin-left: 3%;
+    border-radius: 7px;
+    margin-top: 6%;
+}
+.photo-perfil-2{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.section-group-4 h5{
+    position: absolute;
+    top: 80%;
+    left: 46%;
+    font-size: 20px;
+    color: rebeccapurple
 }
