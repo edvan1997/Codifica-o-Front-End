@@ -243,6 +243,11 @@ span{
     font-size: 20px;
     color: rebeccapurple;
 }
+.image-games{
+    border-radius: 15px;
+    box-shadow: 5px 5px 1px rebeccapurple;
+    opacity: 0.8;
+}
 
 #icon{
     position: absolute;
@@ -252,6 +257,9 @@ span{
     border-radius: 20px;
     font-size: 2.5rem;
 }
+#icon:hover{
+    color: rgb(111, 0, 255);
+}
 #icon1{
     position: absolute;
     left: 62%;
@@ -259,6 +267,9 @@ span{
     color: gold;
     border-radius: 20px;
     font-size: 2.5rem;
+}
+#icon1:hover{
+    color: rgb(111, 0, 255);
 }
 #icon2{
     position: absolute;
@@ -268,15 +279,31 @@ span{
     border-radius: 20px;
     font-size: 2.5rem;
 }
-.far:hover{
-   fill: black;
-   background-color: gray;
+#icon2:hover{
+    color: rgb(111, 0, 255);
 }
-.secao-4{
-    background-color: url("../image/background.jpg"),rgb(0, 0, 0, 0.4);
-    background-repeat: no-repeat;
+#icon3{
+    position: absolute;
+    left: 70%;
+    color: gold;
+    border-radius: 20px;
+    font-size: 2.5rem;
+}
+#icon3:hover{
+    color: rgb(111, 0, 255);
+}
+.fundo{
+    
+    position: absolute;
+    background-color: rgb(248, 248, 255);
+    height: 80%;
+    width: 90%;
+    background-color: #1010225e;
+    opacity: 0.4;
+    margin: -5% 5%;
 
 }
+
 .section-group-4{
     position: relative;
     height: 690px;
