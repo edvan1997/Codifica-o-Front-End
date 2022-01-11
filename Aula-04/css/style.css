@@ -8,7 +8,7 @@
 }
 body{
     background-color: rgba(0, 0, 0, 0.932);
-    font-family: "Ubuntu";
+    font-family: "Ubuntu","Arial";
 }
 nav{
     font-family: "Ubuntu";
@@ -426,4 +426,85 @@ span{
     left: 46%;
     font-size: 20px;
     color: rebeccapurple
+}
+.secao-5-posi{
+    display: flex;
+    margin-top: 4%;
+    justify-content: space-around;
+}
+.section-group-5{
+    height: 900px;
+}
+.section-group-5 h3{
+    color: rebeccapurple;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 16%;
+    margin-top: 10%;
+    margin-bottom: 25px;
+}
+.section-group-5 h2{
+    font-size: 3rem;
+    color: white;
+    margin-left: 16%;
+}
+.team-1{
+    position: absolute;
+    left: 16%;
+    background-color: #c632cd2e;
+    border-radius: 10px;
+}
+.team-1 h4{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+.team-1 h6{
+    font-size: 13px;
+    color: grey;
+    text-align: center;
+    margin-top: 7px;
+}
+.team-2{
+    position: absolute;
+    margin-left:-3%;
+    background-color: #c632cd2e;
+    border-radius: 10px;
+}
+.team-2 h4{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+.team-2 h6{
+    font-size: 13px;
+    color: grey;
+    text-align: center;
+    margin-top: 7px;
+}
+.team-3{
+    position: absolute;
+    left: 60%;
+    background-color: #c632cd2e;
+    border-radius: 10px;
+}
+.team-3 h4{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+.team-3 h6{
+    font-size: 13px;
+    color: grey;
+    text-align: center;
+    margin-top: 7px;
+}
+.section-group-5 h5{
+    margin-top: 28%;
+    font-size: 17px;
+    color: rebeccapurple;
+    margin-left: 46%;
+}
+.section-group-5 img{
+    border-radius: 7px;
 }
