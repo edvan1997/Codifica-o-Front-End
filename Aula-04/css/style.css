@@ -508,3 +508,66 @@ span{
 .section-group-5 img{
     border-radius: 7px;
 }
+
+.rodape h2{
+    color: white;
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 2.7rem;
+}
+.icon-rodape{    
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#icon-face{
+    color: cornflowerblue;
+    margin: 10px;
+    font-size: 25px;
+    margin-right: 40px;
+}
+#icon-twitter{
+    margin: 10px;
+    color: cornflowerblue;
+    font-size: 25px;
+    margin-right: 40px;
+}
+#icon-youtube{
+    margin: 10px;
+    color: red;
+    font-size: 25px;
+}
+.rodape p{
+    color: grey;
+    margin-top: 25px;
+}
+.rodape-global{
+    text-align: center;
+    margin-left: 30%;
+    position: absolute;
+}
+.rodape-global h5{
+    color: white;
+    font-size: 1.5rem;
+}
+.rodape-plano-0{
+    position: absolute;
+    top: -211px;
+}
+.rodape-plano-1{
+    position: absolute;
+    top: -211px;
+    right: -299px;
+}
+.rodape-plano-2{
+    position: absolute;
+    top: -211px;
+    right: -488px;
+}
+.rodape-plano-3{
+    position: absolute;
+    top: -211px;
+    right: -665px;
+}
+.rodape{
+    background-color: rgba(0, 0, 0, 0.411);
+}
