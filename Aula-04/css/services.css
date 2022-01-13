@@ -1,0 +1,85 @@
+.title{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.service{
+    color: white;
+    display: inline-flex;
+    position: absolute;
+    top: 39%;
+    right:7%;
+}
+.service img{
+    border-radius: 8px;
+}
+
+.web-design{
+    width: 350px;
+    margin-right: 35px;
+}
+.web-design p{
+    width: 350px;
+    color: grey;
+}
+.web-design h2{
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+.web-design img{
+    box-shadow: 6px 5px 1px orangered;
+}
+
+.game-design{
+    width: 350px;
+    margin-right: 35px;
+}
+.game-design p{
+    width: 350px;
+    color: grey;
+}
+.game-design h2{
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+.game-design img{
+    box-shadow: 6px 5px 1px orangered;
+}
+
+.social-media{
+    width: 350px;
+    margin-right: 35px;
+}
+.social-media p{
+    width: 350px;
+    color: grey;
+}
+.social-media h2{
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+.social-media img{
+    box-shadow: 6px 5px 1px orangered;
+}
+
+.anti-cheat{
+    width: 350px;
+}
+.anti-cheat p{
+    width: 350px;
+    color: grey;
+}
+.anti-cheat h2{
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+.anti-cheat img{
+    box-shadow: 6px 5px 1px orangered;
+}
+.title h1{
+    color: white;
+
+}
+.rodape{
+    margin-top: 30%;
+}
