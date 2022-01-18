@@ -1,11 +1,17 @@
-section h3{
+section h1{
     color: white;
     font-size: 3.8rem;
     text-align: center;
     margin-top: 110px;
+    margin-bottom: 10%;
 }
 section p{
+    margin-top: 20%;
     text-align: center;
     padding: 30px;
     margin: auto;
+    color:white;
+    background-color: rgb(37, 37, 37);
+    width: 80%;
+    margin-bottom: 10%;
 }
