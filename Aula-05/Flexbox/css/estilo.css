@@ -27,7 +27,7 @@ ul{
     align-items: center;
 }
 .menu-principal{
-
+    display: flex;
 }
 .menu-principal:first-child{
     margin-right: 0 auto;
@@ -46,7 +46,7 @@ ul{
     align-items: center;
 }
 .texto{
-    width: 53%;
+    width: 45%;
 }
 .texto h1{
     font-size: 4rem;
@@ -58,8 +58,8 @@ ul{
 }
 .quadrados{
     border: 14px solid white;
-    width: 50px;
-    height: 50px;
+    width: 15.3%;
+    height: 15%;
     border-radius: 9px;
 }
 .conjunto-quadrados{
@@ -76,7 +76,7 @@ ul{
 }
 .caixa-1{
     width: 250px;
-    height: 180px;
+    height: 220px;
     background-color: #0151cc;
     color: white;
     border-radius: 10px;
@@ -88,7 +88,7 @@ ul{
 }
 .caixa-2{
     width: 250px;
-    height: 180px;
+    height: 220px;
     background-color: #0151cc;
     color: white;
     border-radius: 10px;
@@ -99,7 +99,7 @@ ul{
 }
 .caixa-3{
     width: 250px;
-    height: 180px;
+    height: 220px;
     background-color: #0151cc;
     color: white;
     border-radius: 10px;
@@ -116,4 +116,8 @@ ul{
 .fas{
     margin-right: 10px;
     font-size: 25px;
+}
+.e0{
+    margin-left: -130%;
+    font-size: 1.2rem;
 }
