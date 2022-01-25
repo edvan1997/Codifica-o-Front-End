@@ -1,0 +1,128 @@
+.principal{
+    width: 60%;
+    margin: 0 auto;
+}
+.primeiro-conj{
+    background-color: thistle;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    border-radius: 25px;
+}
+p{
+    justify-content: center;
+    color: white;
+    text-align: left;
+    margin-left: 5px;
+}
+.caixa1{
+    background-color: blue;
+    border-radius: 25px;
+    width: 25%;
+}
+.caixa2{
+    background-color: blue;
+    border-radius: 25px;
+    width: 25%;
+}
+.caixa3{
+    background-color: blue;
+    border-radius: 25px;
+    width: 25%;
+}
+.caixa4{
+    background-color: blue;
+    border-radius: 25px;
+    width: 25%;
+}
+
+.segundo-conj{
+    background-color: thistle;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    border-radius: 25px;
+}
+.caixa5{
+    background-color: blue;
+    border-radius: 25px;
+    width: 25%;
+}
+.caixa6{
+    background-color: blue;
+    border-radius: 25px;
+    width: 50%;
+    background-color: grey;
+}
+.caixa7{
+    background-color: blue;
+    border-radius: 25px;
+    width: 25%;
+}
+.caixa8{
+    background-color: blue;
+    border-radius: 25px;
+    width: 25%;
+}
+
+.terceiro-conj{
+    background-color: thistle;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    border-radius: 25px;
+}
+.caixa9{
+    background-color: blue;
+    border-radius: 25px;
+    width: 100%;
+}
+.caixa10{
+    background-color: blue;
+    border-radius: 25px;
+    width: 40%;
+    background-color: grey;
+}
+.caixa11{
+    background-color: blue;
+    border-radius: 25px;
+    width: 100%;
+}
+.caixa12{
+    background-color: blue;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.quarto-conj{
+    background-color: thistle;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    border-radius: 25px;
+}
+.caixa13{
+    background-color: blue;
+    border-radius: 25px;
+    width: 25%;
+}
+.caixa14{
+    background-color: blue;
+    border-radius: 25px;
+    width: 60%;
+    background-color: grey;
+}
+.caixa15{
+    background-color: blue;
+    border-radius: 25px;
+    width: 25%;
+}
+.caixa16{
+    background-color: blue;
+    border-radius: 25px;
+    width: 25%;
+}
