@@ -11,6 +11,7 @@ body{
  nav{
     background-color: #3474e6;
     color: white;
+    height: 60px;
  }
  ul a{
      text-decoration: none;
@@ -58,12 +59,12 @@ ul{
 }
 .quadrados{
     border: 14px solid white;
-    width: 15.3%;
-    height: 15%;
+    width: 19.3%;
+    height: 18%;
     border-radius: 9px;
 }
 .conjunto-quadrados{
-    width: 300px;
+   
     height: 300px;
     display: flex;
     justify-content: space-around;
@@ -118,6 +119,33 @@ ul{
     font-size: 25px;
 }
 .e0{
-    margin-left: -130%;
+    margin-right: 500px;
     font-size: 1.2rem;
+    transition: .7s all;
+}
+.menu-principal li{
+    transition: 0.7 all;
+}
+/* .menu-principal li:hover{
+    
+    transition: 0.7s all;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.e0:hover{
+    color: rgb(158, 156, 156);
+    transition: .7s all;
+}
+.texto h1:hover{
+    transition: 1s all;
+    color: black;
+}
+.caixa:hover{
+    background-color: black;
+    transition: .7s all;
+} */
+.caixa{
+    
 }

@@ -104,3 +104,85 @@ body{
     transition:ease-in-out .3s;
 
 }
+
+.bloco1:hover{
+    
+    background-color:rgb(134, 42, 13);
+}
+.bloco2:hover{
+    
+    background-color:rgb(145, 255, 0);
+}
+.bloco3:hover{
+    
+    background-color:rgb(255, 115, 0);
+}
+.bloco4:hover{
+    
+    background-color:rgb(96, 38, 119);
+}
+.bloco5:hover{
+    
+    background-color:blue;
+}
+.bloco6:hover{
+    
+    background-color:rgb(70, 168, 130);
+}
+.bloco7:hover{
+    
+    background-color:rgb(142, 163, 47);
+}
+.bloco8:hover{
+    
+    background-color:rgb(165, 22, 129);
+}
+.bloco9:hover{
+    
+    background-color:rgb(33, 160, 199);
+}
+.bloco10:hover{
+    
+    background-color:rgb(25, 89, 105);
+}
+.bloco11:hover{
+    
+    background-color:rgb(16, 56, 10);
+}
+.bloco12:hover{
+    background-color:rgb(43, 78, 46);
+}
+.bloco13:hover{
+    
+    background-color:rgb(86, 86, 136);
+}
+.bloco14:hover{
+    background-color:rgb(65, 55, 150);
+}
+.bloco15:hover{
+    
+    background-color:rgb(4, 71, 60);
+}
+.bloco16:hover{
+    background-color:rgb(65, 9, 9);
+}
+.bloco17:hover{
+    
+    background-color:rgb(96, 96, 102);
+}
+.bloco18:hover{
+    background-color:rgb(75, 3, 3);
+}
+.bloco19:hover{
+    
+    background-color:rgb(143, 2, 2);
+}
+.bloco20:hover{
+    background-color:rgb(255, 0, 0);
+}
+.bloco21:hover{
+    background-color: cornflowerblue;
+}
+.bloco22:hover{
+    background-color: rgb(22, 46, 90);
+}

@@ -5,15 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   
     <link rel="stylesheet" href="css/estilo.css">
     <title>FlexBox</title>
+    
 </head>
-<body>
+<body id="background" onmouseover="mouserOver()" onmouseout="mouser">
         <header>
             <nav>
                 <ul>
+                    <a href=""><li class="menu e0">FlexBox</li></a>
                    <div class="menu-principal">
-                        <a href=""><li class="menu e0">FlexBox</li></a>
+                        
                         <a href=""><li class="menu e1">Home</li></a>
                         <a href=""><li class="menu e1">Sobre</li></a>
                         <a href=""><li class="menu e1">Contato</li></a>
@@ -43,22 +47,30 @@
 
             </div>
             <div class="conjunto-texto">
-            <div class="caixa-1 caixa">
+            <div class="caixa-1 caixa" data-aos="zoom-in-down" data-aos-offset="200"
+            data-aos-duration="500"> >
                 <i class="fas fa-arrows-alt-v"></i>
                 <h2>Alinhamento e espaço</h2>
                 <p>Uma maneira mais eficiente de organizar, alinhar e distribuir espaço entre os itens em um container</p>
             </div>
-            <div class="caixa-2 caixa">
+            <div class="caixa-2 caixa" data-aos="zoom-in-down" data-aos-offset="200"
+            data-aos-duration="500"> >
                 <i class="fas fa-arrows-alt"></i>
                 <h2>Melhor posicionamento</h2>
                 <p>FlexBox geralmente resolve problemas complicados, incluindo como posicionar ou redimensionar dinamicamente elementos em uma pagina</p>
             </div>
-            <div class="caixa-3 caixa">
+            <div class="caixa-3 caixa" data-aos="zoom-in-down" data-aos-offset="200"
+            data-aos-duration="500"> >
                 <i class="fas fa-tablet"></i>
                 <h2>Designer Responsivo</h2>
                 <p>FlexBox torna a construção de um layout de site (e tornando-o responsivo) muito, muito mias fácil</p>
             </div>
         </div>
         </div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+        <script src="js/js.js"></script>
     </body>
 </html>

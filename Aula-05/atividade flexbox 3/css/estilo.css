@@ -126,3 +126,77 @@ p{
     border-radius: 25px;
     width: 25%;
 }
+.box{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.caixa1:hover{
+    background-color: rgb(66, 66, 112);
+   
+}
+.caixa2:hover{
+    background-color: rgb(78, 78, 92);
+    
+}
+.caixa3:hover{
+    background-color: rgb(2, 2, 46);
+    
+}
+.caixa4:hover{
+    background-color: rgb(105, 48, 102);
+    
+}
+
+.caixa5:hover{
+    background-color: rgb(51, 17, 59);
+  
+}
+.caixa6:hover{
+    background-color: blue;
+
+}
+.caixa7:hover{
+    background-color: rgb(172, 111, 172);
+    
+}
+.caixa8:hover{
+    background-color: rgb(61, 223, 188);
+    
+}
+
+
+.caixa9:hover{
+    background-color: rgb(5, 46, 44);
+   
+}
+.caixa10:hover{
+    background-color: rgb(62, 167, 149);
+    
+}
+.caixa11:hover{
+    background-color: rgb(17, 143, 74);
+   
+}
+.caixa12:hover{
+    background-color: rgb(92, 94, 23);
+   
+}
+
+
+.caixa13:hover{
+    background-color: rgba(236, 253, 0, 0.993);
+    
+}
+.caixa14:hover{
+    background-color: coral;
+}
+.caixa15:hover{
+    background-color: rgb(146, 20, 30);
+   
+}
+.caixa16:hover{
+    background-color: rgb(255, 0, 0);
+    
+}
