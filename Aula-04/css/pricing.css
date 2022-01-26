@@ -284,3 +284,15 @@ button:hover{
     top: -78px;
     left: 77px;
 }
+.plano-fundo-1:hover{
+    transform: scale(1.2);
+    transition: .7s all;
+}
+.plano-fundo-2:hover{
+    transform: scale(1.2);
+    transition: .7s all;
+}
+.plano-fundo-3:hover{
+    transform: scale(1.2);
+    transition: .7s all;
+}

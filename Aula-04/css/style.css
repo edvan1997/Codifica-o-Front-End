@@ -504,6 +504,7 @@ span{
     font-size: 17px;
     color: rebeccapurple;
     margin-left: 46%;
+    position: absolute;
 }
 .section-group-5 img{
     border-radius: 7px;
@@ -520,20 +521,20 @@ span{
     margin-top: 5%;
 }
 #icon-face{
-    color: cornflowerblue;
+    color: rgb(82, 81, 81);
     margin: 10px;
     font-size: 25px;
     margin-right: 40px;
 }
 #icon-twitter{
     margin: 10px;
-    color: cornflowerblue;
+    color: rgb(82, 81, 81);
     font-size: 25px;
     margin-right: 40px;
 }
 #icon-youtube{
     margin: 10px;
-    color: red;
+    color: rgb(82, 81, 81);
     font-size: 25px;
 }
 .rodape p{
@@ -570,4 +571,77 @@ span{
 }
 .rodape{
     background-color: rgba(0, 0, 0, 0.411);
+}
+
+/* hover */
+
+#butao:hover{
+    background-color: #0e0e50;
+    color: yellow;
+}
+.li_deco:hover{
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    transition: .7s all;
+}
+#contact:hover{
+    border: 1.5px solid #181884;
+    background-color: #111111;
+    transition: .8s all;
+    color: white;
+}
+.group-image:hover{
+    transform: scale(1.5,1.5);
+    transition: 1s all;
+}
+.pc:hover{
+    transform: scale(1.2,1.2);
+    background-color: rgb(201 146 255 / 50%);
+    transition: .7s all;
+}
+.foguete:hover{
+    transform: scale(1.2,1.2);
+    background-color: rgb(255 129 129 / 50%);
+    transition: .7s all;
+}
+.social:hover{
+    transform: scale(1.2,1.2);
+    background-color: rgb(210 255 141 / 50%);
+    transition: .7s all;
+}
+.social2:hover{
+    transform: scale(1.2,1.2);
+    background-color: rgb(255 255 138 / 50%);
+    transition: .7s all;
+}
+.image-games:hover{
+    transform: scale(1.05,1.05);
+    transition: 1.3s all;
+}
+h5:hover{
+    background-color: rgba(255, 255, 255, 0.288);
+    transition: 1.2s ease-in-out;
+    color: white;
+    border-radius: 5px;
+}
+#icon-face:hover{
+    color: cornflowerblue;
+    transition: .7s all;
+}
+#icon-twitter:hover{
+    color: cornflowerblue;
+    transition: .7s all;
+}
+#icon-youtube:hover{
+    color: red;
+    transition: .7s all;
+}
+.rodape p:hover{
+    transform: scale(1.07,1.07);
+    transition: .7s all;
+}
+.logo:hover{
+    color: red;
+    transition: .7s all;
 }
