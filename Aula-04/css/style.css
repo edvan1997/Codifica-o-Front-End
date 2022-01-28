@@ -329,13 +329,52 @@ span{
     font-size: 2.5rem;
     top: 8%;
 }
+.main-comentarios{
+    margin: 0 auto;
+    display: flex;
+}
 .testimonial-1{
-    display: inline-block;
-    position: relative;
+    
     width: 450px;
     padding: 15px;
     background-color: #00000029;
-    margin-left: 14%;
+    margin-left: 1%;
+    border-radius: 7px;
+    margin-top: 6%;
+}
+.testimonial-2{
+    
+    width: 450px;
+    padding: 15px;
+    background-color: #00000029;
+    margin-left: 1%;
+    border-radius: 7px;
+    margin-top: 6%;
+}
+.testimonial-3{
+    
+    width: 450px;
+    padding: 15px;
+    background-color: #00000029;
+    margin-left: 1%;
+    border-radius: 7px;
+    margin-top: 6%;
+}
+.testimonial-4{
+   
+    width: 450px;
+    padding: 15px;
+    background-color: #00000029;
+    margin-left: 1%;
+    border-radius: 7px;
+    margin-top: 6%;
+}
+.testimonial-5{
+   
+    width: 450px;
+    padding: 15px;
+    background-color: #00000029;
+    margin-left: 1%;
     border-radius: 7px;
     margin-top: 6%;
 }
@@ -346,14 +385,14 @@ span{
 }
 .section-group-4 h4{
     color: white;
-    position: absolute;
+   
     left: 115px;
     top: 31px;
     font-size: 25px;
 }
 .section-group-4 h6{
     color: dimgrey;
-    position: absolute;
+  
     left: 115px;
     top: 69px;
     font-size: 14px;
@@ -365,13 +404,13 @@ span{
 }
 .fas {
     color: gold;
-    position: absolute;
+
     top: 25%;
     left: 73%;
 }
 .fas1 {
     color: gold;
-    position: absolute;
+ 
     top: 25%;
     left: 73%;
 }
@@ -390,31 +429,13 @@ span{
     left: 89%;
 
 }
-.testimonial-2{
-    display: inline-block;
-    position: relative;
-    width: 450px;
-    padding: 15px;
-    background-color: #00000029;
-    margin-left: 3%;
-    border-radius: 7px;
-    margin-top: 6%;
-}
+
 .photo-perfil-1{
     width: 80px;
     height: 80px;
     border-radius: 50%;
 }
-.testimonial-3{
-    display: inline-block;
-    position: relative;
-    width: 450px;
-    padding: 15px;
-    background-color: #00000029;
-    margin-left: 3%;
-    border-radius: 7px;
-    margin-top: 6%;
-}
+
 .photo-perfil-2{
     width: 80px;
     height: 80px;
@@ -644,4 +665,20 @@ h5:hover{
 .logo:hover{
     color: red;
     transition: .7s all;
+}
+/* carrossel */
+
+.owl-dots{
+    text-align: center;
+}
+.owl-dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black !important;
+    margin: 3px;
+}
+.owl-dots .active{
+    background-color: #333 !important;
+    width: 18px !important;
 }
