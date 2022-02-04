@@ -36,23 +36,35 @@ nav a{
     font-size: 45px;
     text-transform: none;
     font-weight: 700;
-    margin-right: 700px;
+    margin: 0 auto;
 }
 .cabecalho{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 85%;
+    margin: 0 auto;
+}
+.secao-1{
+    position: relative;
+}
+.secao-1-texto{
+    margin-right: 45%;
 }
 #contact{
     background-color: #181884;
     padding: 15px;
     border-radius: 7px;
+    width: 105px;
 }
 .section-group-1{
     width: 100%;
     height: 600px;
-    display: contents;
-    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
 }
 .section-group-1 h2{
     color: white;
@@ -90,7 +102,10 @@ span{
 #controle{
     margin-left: 500px;
     margin-top: -194px;
-    position: absolute;
+    
+}
+.secao-2{
+    position: relative;
 }
 .section-group-2{
     
@@ -147,32 +162,13 @@ span{
 }
 .group-form{
     display: inline-block;
-    width: 14%;
+    width: 20%;
     margin: 10px;
     padding: 5px;
     text-align: inherit;
+    height: 37%;
 }
-#colum{
-    position: absolute;
-    right: 35%;
-    top: 112%;
 
-}
-#colum1{
-    position: absolute;
-    right: 15%;
-    top: 112%;
-}
-#colum2{
-    position: absolute;
-    right: 35%;
-    top: 135%;
-}
-#colum3{
-    position: absolute;
-    right: 15%;
-    top: 135%;
-}
 .icon-social-desktop{
     padding: 5px;
     background-color:rgba(102, 51, 153, 0.5);
@@ -338,7 +334,8 @@ span{
     width: 450px;
     padding: 15px;
     background-color: #00000029;
-    margin-left: 1%;
+    margin-left: 0%;
+    margin-right: 2%;
     border-radius: 7px;
     margin-top: 6%;
 }
@@ -347,7 +344,8 @@ span{
     width: 450px;
     padding: 15px;
     background-color: #00000029;
-    margin-left: 1%;
+    margin-left: 30%;
+    margin-right: 2%;
     border-radius: 7px;
     margin-top: 6%;
 }
@@ -356,7 +354,8 @@ span{
     width: 450px;
     padding: 15px;
     background-color: #00000029;
-    margin-left: 1%;
+    margin-left: 59%;
+    margin-right: 2%;
     border-radius: 7px;
     margin-top: 6%;
 }
@@ -365,24 +364,25 @@ span{
     width: 450px;
     padding: 15px;
     background-color: #00000029;
-    margin-left: 1%;
+    margin-left: 90%;
+    margin-right: 2%;
     border-radius: 7px;
     margin-top: 6%;
+}
+.secao-4{
+    margin-bottom: 9%;
+
 }
 .testimonial-5{
    
     width: 450px;
     padding: 15px;
-    background-color: #00000029;
-    margin-left: 1%;
+    margin-left: 120%;
+    margin-right: 2%;
     border-radius: 7px;
     margin-top: 6%;
 }
-.photo-perfil{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-}
+
 .section-group-4 h4{
     color: white;
    
@@ -429,21 +429,23 @@ span{
     left: 89%;
 
 }
-
-.photo-perfil-1{
-    width: 80px;
-    height: 80px;
+.photo-perfil{
     border-radius: 50%;
+    display: block;
 }
 
-.photo-perfil-2{
-    width: 80px;
-    height: 80px;
+.photo-perfil-1{
     border-radius: 50%;
+    display: block;
+}
+.photo-perfil-2{
+    
+    border-radius: 50%;
+    display: block;
 }
 .section-group-4 h5{
     position: absolute;
-    top: 80%;
+    top: 90%;
     left: 46%;
     font-size: 20px;
     color: rebeccapurple
@@ -681,4 +683,143 @@ h5:hover{
 .owl-dots .active{
     background-color: #333 !important;
     width: 18px !important;
+}
+
+.tamanho{
+    width: 60%;
+    margin: 0 auto;
+}
+.grupo-conjunto{
+    display: flex;
+    width: 44%;
+    height: 69%;
+    flex-flow: column wrap;
+    justify-items: center;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+.image-equipe{
+
+}
+
+
+@media  (max-width:850px){
+    .logo {
+        font-size: 45px;
+        text-transform: none;
+        font-weight: 700;
+        /* margin: 0 auto; */
+        margin-left: 55%;
+    }
+    ul{
+        display: flex;
+        /* margin: 0 auto; */
+        margin-left: 185%;
+        justify-content: center;
+        align-items: center;
+    }
+    #controle {
+        margin-left: 260%;
+        margin-top: -194px;
+        /* width: 0; */
+    }
+    #title-sec{
+        margin-left: 65%;
+        width: 165%;
+    }
+    .section-group-2 h2{
+        margin-top: 45%;
+    }
+    .section-group-2 h1 {
+        margin-top: 15%;
+        margin-left: 20%;
+    }
+    .group-form{
+        width: 55%;
+    }
+    .img-group{
+        margin-left: 70%;
+    }
+    .grupo-conjunto{
+        width: 88%;
+        left: 110%;
+    }
+    #title-sec-1{
+        margin-left: 23%;
+    }
+    .section-3-posi{
+        margin-left: 10%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    .secao-3{
+        display: flex;
+    }
+    .image-games{
+        height: 160px;
+        width: 180px;
+
+    }
+    .section-group-3 h3{
+        margin-left: 120%;
+    }
+    .section-3-intro{
+        margin-left: 100%;
+        width: 70%;
+
+    }
+    .section-group-3 h5{
+        left: 115%;
+        width: 42%;
+    }
+    .secao-4{
+        width: 312%;
+    }
+    .section-group-4 h5{
+        margin-left: -5%;
+        width: 52%;
+        margin-top: 2%;
+    }
+    .secao-5-posi{
+        display: flex;
+        position: relative;
+    }
+    .team-1{
+    background-color: #c632cd2e;
+    border-radius: 10px;
+    
+    margin-left: -15%;
+    }
+    .team-2{
+    background-color: #c632cd2e;
+    border-radius: 10px;
+    margin-left: 210%;
+    }
+    .team-3{
+    background-color: #c632cd2e;
+    border-radius: 10px;
+    margin-left: 147%;
+    }
+    .section-group-5 h5{
+        margin-top: 141%;
+        font-size: 17px;
+        color: rebeccapurple;
+        margin-left: 145%;
+        position: absolute;
+        width: 22%;
+    }
+    .rodape{
+        width: 312% ;
+        background-color: rgba(0, 0, 0, 0.411);
+        height: 300px;
+        position: relative;    
+    }
+    .rodape-global{
+        text-align: center;
+        margin-left: 37%;
+        position: absolute;
+        bottom: 15%;
+    }
 }
