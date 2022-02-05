@@ -566,32 +566,17 @@ span{
 }
 .rodape-global{
     text-align: center;
-    margin-left: 30%;
-    position: absolute;
+    display: flex;
+    margin-left: 23%;
+    position: relative;
+    bottom: 196px;
+    justify-content: space-around;
 }
 .rodape-global h5{
     color: white;
     font-size: 1.5rem;
 }
-.rodape-plano-0{
-    position: absolute;
-    top: -211px;
-}
-.rodape-plano-1{
-    position: absolute;
-    top: -211px;
-    right: -299px;
-}
-.rodape-plano-2{
-    position: absolute;
-    top: -211px;
-    right: -488px;
-}
-.rodape-plano-3{
-    position: absolute;
-    top: -211px;
-    right: -665px;
-}
+
 .rodape{
     background-color: rgba(0, 0, 0, 0.411);
 }
@@ -704,7 +689,7 @@ h5:hover{
 }
 
 
-@media  (max-width:850px){
+@media  (max-width:800px){
     .logo {
         font-size: 45px;
         text-transform: none;
@@ -821,5 +806,157 @@ h5:hover{
         margin-left: 37%;
         position: absolute;
         bottom: 15%;
+    }
+    #icon{
+        top: 100%;
+    }
+    #icon1{
+        top: 100%;
+    }
+    #icon2{
+        top: 100%;
+    }
+    #controle{
+       display: none;
+    }
+    
+}
+@media(max-width:500px){
+    .cabecalho{
+        width: 100%;
+    }
+    .logo{
+        margin-left: 0px;
+    }
+    ul{
+        margin-left: 0;
+        flex-direction: column;
+    }
+    .secao-1{
+        height: 1000px;
+    }
+    .secao-1-texto{
+        margin-left: -90;
+    }
+    #title-sec{
+        font-size: 1.1rem;
+        margin: -33%;
+    }
+    .img-group{
+        margin-left: -13%;
+        width: 600px;
+    }
+    .section-group-2 h1{
+        margin-left: 15%;
+    }
+    #title-sec-1{
+        margin-left: 15%;
+    }
+    .grupo-conjunto{
+        width: 81%;
+        left: 1%;
+        top: 65%;
+    }
+    .section-group-3 h3{
+        margin-left: 0%;
+        margin-top: 45%;
+    }
+    .section-3-posi{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .section-3-group{
+        margin-bottom: 15%;
+
+    }
+    #icon{
+        top: 22%;
+        right: -70%;
+    }
+    #icon1{
+        top: 55%;
+        right: -42%;
+    }
+    #icon2{
+        top: 89%;
+    }
+    .section-group-3 h5{
+        top: 144%;
+        left: 34%;
+    }
+    .secao-4{
+        margin-top: 100%;
+    }
+    .section-group-4 h3{
+        margin-left: 5%;
+    }
+    .section-group-4 h2{
+        margin-left: 2%;
+        font-size: 2.7rem;
+    }
+    #icon3{
+        display: none;
+    }
+    .tamanho{
+        width: 52vh;
+        margin-left: 10px;
+    }
+    .testimonial-1{
+        margin-left: 0%;
+    }
+    .testimonial-2{
+        margin-left: 1%;
+    }
+    .testimonial-3{
+        margin-left: 1%;
+    }
+    .testimonial-4{
+        margin-left: 1%;
+    }
+    .testimonial-5{
+        display: none;
+    }
+    .section-group-4 h5{
+    margin-left: -37%; 
+    }
+    .secao-5-posi{
+        margin-top: 30%;
+        margin-left: 10%;
+    }
+    .team-1{
+        margin-left: -15%;
+    }
+    .team-2{
+        margin-left: -9%;
+        margin-top: 104%;
+    }
+    .team-3{
+        margin-left: -60%;
+        margin-top: 208%;
+    }
+    .section-group-5 h5{
+        margin-top: 284%;
+        margin-left: 40%;
+
+    }
+    .rodape{
+        height: 787px;
+        margin-top: 170%;
+    }
+    .rodape h2{
+        margin-left: 1%;
+
+    }
+    .icon-rodape{
+        margin-left: 1%;
+    }
+    .rodape-global{
+        display: flex;
+        margin-left: 20%;
+        flex-direction: column;
+        bottom: 3%;
+    }
+    .pe-global{
+        margin-bottom: 17%;
     }
 }
