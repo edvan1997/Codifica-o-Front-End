@@ -684,141 +684,47 @@ h5:hover{
     top: 45%;
     left: 40%;
 }
-.image-equipe{
-
-}
 
 
-@media  (max-width:800px){
-    .logo {
-        font-size: 45px;
-        text-transform: none;
-        font-weight: 700;
-        /* margin: 0 auto; */
-        margin-left: 55%;
+
+@media  (max-width:920px){
+    .secao-1-texto {
+        margin-right: 80%;
     }
-    ul{
-        display: flex;
-        /* margin: 0 auto; */
-        margin-left: 185%;
-        justify-content: center;
-        align-items: center;
-    }
-    #controle {
-        margin-left: 260%;
-        margin-top: -194px;
-        /* width: 0; */
-    }
-    #title-sec{
-        margin-left: 65%;
-        width: 165%;
+    .img-group {
+        margin-left: 6%;
     }
     .section-group-2 h2{
-        margin-top: 45%;
+        margin-left: 10%;
     }
-    .section-group-2 h1 {
-        margin-top: 15%;
-        margin-left: 20%;
-    }
-    .group-form{
-        width: 55%;
-    }
-    .img-group{
-        margin-left: 70%;
-    }
-    .grupo-conjunto{
-        width: 88%;
-        left: 110%;
+    .section-group-2 h1{
+        margin-left: 10%;
     }
     #title-sec-1{
-        margin-left: 23%;
-    }
-    .section-3-posi{
         margin-left: 10%;
-        display: flex;
-        text-align: center;
-        align-items: center;
     }
-    .secao-3{
-        display: flex;
+    .grupo-conjunto{
+        top:55%;
+        left:10% ;
     }
-    .image-games{
-        height: 160px;
-        width: 180px;
-
+    .group-form{
+        width: 95%;
     }
-    .section-group-3 h3{
-        margin-left: 120%;
-    }
-    .section-3-intro{
-        margin-left: 100%;
-        width: 70%;
-
+    .section-3-group{
+        margin-bottom: 30px;
     }
     .section-group-3 h5{
-        left: 115%;
-        width: 42%;
+        margin-top: 190%;
     }
-    .secao-4{
-        width: 312%;
-    }
-    .section-group-4 h5{
-        margin-left: -5%;
-        width: 52%;
-        margin-top: 2%;
-    }
-    .secao-5-posi{
-        display: flex;
-        position: relative;
-    }
-    .team-1{
-    background-color: #c632cd2e;
-    border-radius: 10px;
-    
-    margin-left: -15%;
-    }
-    .team-2{
-    background-color: #c632cd2e;
-    border-radius: 10px;
-    margin-left: 210%;
-    }
-    .team-3{
-    background-color: #c632cd2e;
-    border-radius: 10px;
-    margin-left: 147%;
-    }
-    .section-group-5 h5{
-        margin-top: 141%;
-        font-size: 17px;
-        color: rebeccapurple;
-        margin-left: 145%;
-        position: absolute;
-        width: 22%;
-    }
-    .rodape{
-        width: 312% ;
-        background-color: rgba(0, 0, 0, 0.411);
-        height: 300px;
-        position: relative;    
-    }
-    .rodape-global{
-        text-align: center;
-        margin-left: 37%;
-        position: absolute;
-        bottom: 15%;
-    }
-    #icon{
-        top: 100%;
-    }
+    #icon
     #icon1{
-        top: 100%;
+        
     }
     #icon2{
-        top: 100%;
+        left: 51%;
+        top: 95%;
     }
-    #controle{
-       display: none;
-    }
+
     
 }
 @media(max-width:500px){
@@ -958,5 +864,137 @@ h5:hover{
     }
     .pe-global{
         margin-bottom: 17%;
+    }
+}
+@media(max-width:390px){
+    .logo{
+        display:none;
+    }
+    ul{
+        flex-direction: row;
+        
+    }
+    nav li {
+        padding: 5px 8px;
+    } 
+    .secao-1-texto{
+        width: 100%;
+    }
+    .section-group-1 h2{
+        margin-top: 0;
+        margin-left: 33%;
+    }
+    .section-group-1 p{
+        margin-left: 33%;
+    }
+    #butao{
+        margin-left: 33%;
+    }
+    #title-sec{
+        width: 100%;
+        margin-top: -100%;
+        font-size: 15px;
+        margin-left: 0;
+    }
+    .img-group{
+        margin-top: 90px;
+        margin-left: 0;
+        width: 100%;
+    }
+    .group-image{
+        float: left;
+    width: 20%;
+    margin-top: 58px;
+    margin-left: 5%;
+    }
+    .section-group-2 h2{
+        margin-top: 75%;
+        margin-left: 20px;
+    }
+    .section-group-2 h1{
+        margin-left: 5%;
+    }
+    #title-sec-1{
+        margin-left: 5%;
+    }
+    .grupo-conjunto{
+        top:20%;
+    }
+    .section-group-3 h3{
+        margin-top: 10%;
+    }
+    .section-3-intro{
+        margin-left: 16%;
+    }
+    .section-3-posi{
+        margin-left: -15%;
+    }
+    .section-group-3 h5{
+        top: 128%;
+    }
+    #icon{
+        top: 11%;
+        left: 80%;
+        width: 70px;
+    }
+    #icon1{
+        top: 45%;
+        left: 80%;
+        width: 70px;
+    }
+    #icon2{
+        top: 79%;
+        left: 80%;
+        width: 70px;
+    }
+    .secao-4{
+        width: 100%;
+    }
+    .section-group-4 h2{
+        font-size: 2.1rem;
+    }
+    .tamanho{
+        width: 43vh;
+    }
+    .testimonial-1{
+        display: contents;
+    }
+    .testimonial-2{
+        display: contents;
+    }
+    .testimonial-3{
+        display: contents;
+    }
+    .testimonial-4{
+        display: contents;
+    }
+    .testimonial-5{
+        display: none;
+    }
+    .image-equipe{
+        width: 300px;
+        height: 200px;
+    }
+    .team-1{
+        margin-left: -10%;
+        margin-top: 0%;
+    }
+    .team-2{
+        margin-left: -2%;
+        margin-top: 75%;
+    }
+    .team-3{
+        margin-left: -54%;
+        margin-top: 150%;
+    }
+    .section-group-5 h5{
+        margin-top: 215%;
+    }
+    .rodape{
+        margin-top: 80%;
+        width: 100%;
+    }
+    .rodape-global{
+        margin-left: 60%;
     }
 }
