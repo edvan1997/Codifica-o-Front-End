@@ -288,18 +288,7 @@ span{
 #icon3:hover{
     color: rgb(111, 0, 255);
 }
-.fundo{
-    
-    position: absolute;
-    background-color: rgb(248, 248, 255);
-    height: 80%;
-    width: 90%;
-    background-color: #1010225e;
-    opacity: 0.4;
-    margin: -5% 5%;
-
-}
-
+   
 .section-group-4{
     position: relative;
     height: 690px;
@@ -451,9 +440,11 @@ span{
     color: rebeccapurple
 }
 .secao-5-posi{
-    display: flex;
     margin-top: 4%;
-    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 15%;
+    display: flex;
+    justify-content: start;
 }
 .section-group-5{
     height: 900px;
@@ -472,8 +463,7 @@ span{
     margin-left: 16%;
 }
 .team-1{
-    position: absolute;
-    left: 16%;
+    margin-right: 55px;
     background-color: #c632cd2e;
     border-radius: 10px;
 }
@@ -489,8 +479,7 @@ span{
     margin-top: 7px;
 }
 .team-2{
-    position: absolute;
-    margin-left:-3%;
+    margin-right: 55px;
     background-color: #c632cd2e;
     border-radius: 10px;
 }
@@ -506,8 +495,7 @@ span{
     margin-top: 7px;
 }
 .team-3{
-    position: absolute;
-    left: 60%;
+    margin-right: 55px;
     background-color: #c632cd2e;
     border-radius: 10px;
 }
@@ -523,7 +511,7 @@ span{
     margin-top: 7px;
 }
 .section-group-5 h5{
-    margin-top: 28%;
+    margin-top: 8%;
     font-size: 17px;
     color: rebeccapurple;
     margin-left: 46%;
@@ -687,15 +675,19 @@ h5:hover{
 
 
 
-@media  (max-width:920px){
+@media  (max-width:912px){
     .secao-1-texto {
         margin-right: 80%;
+    }
+    #controle{
+        display: none;
     }
     .img-group {
         margin-left: 6%;
     }
     .section-group-2 h2{
         margin-left: 10%;
+        margin-top: 20%;
     }
     .section-group-2 h1{
         margin-left: 10%;
@@ -704,32 +696,96 @@ h5:hover{
         margin-left: 10%;
     }
     .grupo-conjunto{
-        top:55%;
+        top:60%;
         left:10% ;
     }
     .group-form{
         width: 95%;
     }
+    .section-group-3 h3{
+        margin-top: 15%;
+    }
     .section-3-group{
         margin-bottom: 30px;
     }
     .section-group-3 h5{
-        margin-top: 190%;
+        margin-top: 120%;
     }
-    #icon
+    #icon{
+        left: 51%;
+        top: 27%;    
+    }
     #icon1{
-        
+        left: 51%;
+        top: 60%;
     }
     #icon2{
         left: 51%;
         top: 95%;
     }
+    .secao-4{
+        margin-top: 110%;
+    }
+    .tamanho{
+        width: 52vh;
+        margin-left: 25%;
+    }
+    .testimonial-1{
+        margin-left: 0%;
+    }
+    .testimonial-2{
+        margin-left: 1%;
+    }
+    .testimonial-3{
+        margin-left: 1%;
+    }
+    .testimonial-4{
+        margin-left: 1%;
+    }
+    .testimonial-5{
+        display: none;
+    }
+    .image-equipe{
+        width: 200px;
+        height: 200px;
 
+    }
+    .secao-5-posi{
+        margin-top: 4%;
+    flex-direction: row;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+    }
     
-}
+    .team-1{
+        
+        margin-left: 0;
+    }
+    .team-2{
+        
+        
+        margin-left: 0;
+    }
+    .team-3{
+        margin-left: 0;
+    }
+    .section-group-5 h5{
+        margin-top: 15%;
+    }
+    .section-group-5 {
+        height: 690px;
+    }
+    .rodape-global {
+        margin-left: 30%;
+        bottom: 170px;
+    }
 @media(max-width:500px){
     .cabecalho{
         width: 100%;
+    }
+    #controle{
+        display: none;
     }
     .logo{
         margin-left: 0px;
