@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.calculadora{
+    margin: 0 auto;
+    width: 300px;
+    height: 400px;
+    background-color: lightseagreen;
+}
+.bnt{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 90px;
+    height: 44px;
+    align-content: center;
+    justify-content: center;
+    font-size: 1.7rem;
+    background-color: #6c6363;
+    color: white;
+    border: none;
+    margin: 2px;
+
+}
+input[type="text"]{
+    width: 90%;
+    height: 50px;
+    margin-left: 4%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.grandesa{
+    
+}

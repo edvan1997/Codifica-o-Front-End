@@ -100,3 +100,37 @@ label{
     color: white;
     
 }
+@media(max-width:820px){
+    .part-1 h2{
+        width: 223px;
+    }
+    .part-1 p {
+        width:160px ;
+    }
+    .part-2{
+        width: 500px;
+    }
+}
+@media(max-width:390px){
+    .part-1 h2 {
+        width: 360px;    
+    }
+    .part-2{
+        width: 351px;
+        height: 760px;
+        top:58%;
+    }
+    .colun-1{
+        width: 85%;
+    }
+    .colun-2{
+        width: 85%;
+        margin-left: 30px;
+    }
+    #texto{
+        margin-left: 15px;
+    }
+    #butao{
+        margin-left: 15px;
+    }
+}
