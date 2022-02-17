@@ -1,35 +1,35 @@
-var input = document.querySelector(".visor"),
-    btn = document.querySelectorAll(".valor"),
+var input = document.querySelector(".tela"),
+    btn = document.querySelectorAll(".key li"),
     operador = document.querySelectorAll(".operador");
 
     for(var i =0; i < btn.length; i++){
         document.onkeypress = function(event){
             var key = event.charCode;
-            //console.log(key);
+            console.log(key);
             for(var e = 0; e <= 10; e++){
-                if(key===(48+e)){
+                if(key === (48+e)){
                     input.innerHTML += e;
                 }
             }
             switch(key){
                 case 42:
-                    input.innerHTML+= "*";
+                    input.innerHTML += "*";
                 break;
                 case 43:
-                    input.innerHTML+= "+";
+                    input.innerHTML += "+";
 
                 break;
                 case 45:
                     
-                    input.innerHTML+= "-";
+                    input.innerHTML += "-";
                 break;
-                // case 46:
+                 case 46:
                     
-                //     btn.innerHTML+= "."
-                // break;
+                    input.innerHTML += ".";
+                break;
                 case 47:
                     
-                    input.innerHTML+= "/";
+                    input.innerHTML += "/";
                 break;
                 case 61:
                     var equacao = input.innerHTML;
@@ -37,27 +37,28 @@ var input = document.querySelector(".visor"),
                         try{
                             input.innerHTML = eval(equacao);
                         }catch(e){
-                            alert('Deu um erro')
+                            console.log(equacao);
+                            alert('Deu um erro');
                         }
                     }
                     break;
-                    case 67: // C maiusculo
-                        input.innerHTML=""
+                    case 67: //C maiusculo
+                        input.innerHTML = "";
                     break;
-                    case 99: // c minusculo
-                        input.innerHTML=""
+                    case 99: //c minusculo
+                        input.innerHTML = "";
                         break;
                         default:
                             console.log("teste")
-                            break;
+                        break;
             }
         };
         btn[i].addEventListener('click', function(){
-            var inputVal = this.innerHTML,
+            var inputVal = input.innerHTML,
             btnVal=this.innerHTML;
             switch(btnVal){
                 case "c":
-                    input.innerHTML= "";
+                    input.innerHTML = "";
                     break;
                     case "=":
                         var equacao = inputVal;
@@ -65,13 +66,15 @@ var input = document.querySelector(".visor"),
                             try{
                                 input.innerHTML = eval(equacao);
                             }catch(e){
-                                alert('Deu um erro')
+                                alert('Deu um erro');
                             }
                         }
                         break;
                         default:
                             input.innerHTML += btnVal;
+                            
                             break;
+                            
             }
-        })
+        });
     }

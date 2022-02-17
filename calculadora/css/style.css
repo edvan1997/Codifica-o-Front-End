@@ -29,25 +29,34 @@ border: 1px solid rgba(255, 255, 255, 0.01);
 padding: 20px;
 width: 428px;
 }
-input{
+li{
     margin: 2px;
     border: none;
     border-radius: 5px;
-    background: #00000000;
+    background: #00000011;
     color: rgb(255, 255, 255);
-
-
-}
-.butao{
     font-size: 1.5rem;
     width: 100px;
     height: 75px;
+    text-align: center;
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    
 }
-.visor{
+.tela{
     height: 50px;
-    width: calc(100% - 4px);
+    width: calc(100% - 16px);
     margin-top: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.281);
+   letter-spacing: 2px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.137);
+    font-size: 2rem;
+    color: white;
+    padding: 10px 0px 0px 15px;
 
 }
 body h1{
@@ -55,7 +64,7 @@ body h1{
     position: absolute;
     font-family: fantasy;
 }
-.butao:hover{
+li:hover{
     background-color: rgba(192, 189, 189, 0.685);
   
 }
@@ -65,9 +74,24 @@ body h1{
 .clear:hover{
     background-color: rgba(252, 0, 0, 0.445);
 }
-.igualdade{
+.verificador{
     background-color: rgba(0, 0, 255, 0.61);
+    width: calc(100% - 4px);
 }
-.igualdade:hover{
+.verificador:hover{
     background-color: rgba(0, 0, 241, 0.644);
+}
+
+@media(max-width:393px){
+    body{
+        background-image: linear-gradient(120deg, green,blue);
+    }
+    .calculadora{
+        width: 329px;
+        
+    }
+    li{
+        width: 75px;
+        height: 50px;
+    }
 }
