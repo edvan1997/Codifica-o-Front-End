@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(53, 52, 52);
+    font-family: Helvetica, sans-serif;
+}
+.top-nav-bar{
+    display: flex;
+    width: 85%;
+    margin-left: 10%;
+    margin-right: 5%;
+    color: white;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-nav-search{
+    display: flex;
+}
+.top-nav-search h1{
+    margin-right: 20px;
+}
+.top-nav-search input{
+    border: none;
+    border-radius: 25px;
+    width: 300px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.603);
+    padding: 10px;
+}
+.top-nav-icon{
+    margin-left: auto;
+}
+.icons{
+    margin-right: 10px;
+}
+.top-nav-perfil{
+    text-align: center;
+    display: flex;
+    border-left: 1px solid rgb(92, 92, 92);
+    padding: 0px 0px 0px 15px;
+}
+.side-nav{
+    width: 41px;
+    background-color: white;
+    display: block;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 9%;
+    font-size: 25px;
+}
+.side-icons{
+    margin: 20px;
+    
+}
+
+/* left side box */
+
+.left-side{
+    width: 60%;
+    background-color: black;
+    color: white;
+    margin-left: 10%;
+    padding: 15px;
+    border-radius: 15px;
+}
+.left-side-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.progress{
+    display: flex;
+    justify-content: space-between;
+}
+.progress-num{
+    display: flex;
+    margin: 25px 0px 25px 0px;
+}
+.box-num{
+    margin-right: 20px;
+}
+
+.box-1{
+    width: 33%;
+    background-color: rgba(236, 145, 26, 0.418);
+    display: inline-block;
+    border-radius: 10px;
+}
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.box-center{
+    text-align: center;
+}
+.bar-progress{
+    width: 100%;
+    background-color: rgb(43, 42, 41);
+    height: 4px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.box-bottom h5{
+    float: right;
+    margin-top: 5px;
+}
+.box-bottom{
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.box-bottom-bottom{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid black;
+    height: 50px;
+    align-items: center;
+}
+.box-bottom-perfil{
+    padding: 10px;
+}
+.box-bottom-bottom p{
+    padding: 10px;
+}
+.box-2{
+    width: 33%;
+    background-color: rgba(64, 26, 236, 0.418);
+    display: inline-block;
+    border-radius: 10px;
+}
+.box-3{
+    width: 33%;
+    background-color: rgba(29, 26, 236, 0.418);
+    display: inline-block;
+    border-radius: 10px;
+}
+
