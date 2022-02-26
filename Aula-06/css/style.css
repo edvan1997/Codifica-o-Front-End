@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(53, 52, 52);
+    background-color: rgb(8,8,8);
     font-family: Helvetica, sans-serif;
 }
 .top-nav-bar{
@@ -16,6 +16,7 @@ body{
     padding: 20px;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 5%;
 }
 .top-nav-search{
     display: flex;
@@ -28,13 +29,13 @@ body{
     border-radius: 25px;
     width: 300px;
     height: 35px;
-    background-color: rgba(0, 0, 0, 0.603);
+    background-color: rgba(17, 17, 17, 0.603);
     padding: 10px;
 }
 .top-nav-icon{
     margin-left: auto;
 }
-.icons{
+.icons-top{
     margin-right: 10px;
 }
 .top-nav-perfil{
@@ -42,30 +43,46 @@ body{
     display: flex;
     border-left: 1px solid rgb(92, 92, 92);
     padding: 0px 0px 0px 15px;
+    align-items: center;
 }
 .side-nav{
     width: 41px;
-    background-color: white;
-    display: block;
+    display: inline-block;
     flex-direction: column;
-    margin-top: 10%;
-    margin-left: 9%;
+    margin-left: 5%;
     font-size: 25px;
+    margin-top: 60px;
 }
 .side-icons{
-    margin: 20px;
-    
+    margin-bottom: 60px;
+    display: inline-block;
+    color: white;
+    font-size: 30px;
 }
-
+.bloco-conjunto{
+    display: flex;
+}
+.perfil{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.box-img{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
 /* left side box */
 
 .left-side{
     width: 60%;
     background-color: black;
     color: white;
-    margin-left: 10%;
+    margin-left: 3%;
     padding: 15px;
     border-radius: 15px;
+    display: inline-block;
+    margin-right: 10px;
 }
 .left-side-top{
     display: flex;
@@ -75,20 +92,32 @@ body{
 .progress{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .progress-num{
     display: flex;
     margin: 25px 0px 25px 0px;
+}
+.box-num h3{
+    font-size: 30px;
+}
+.lef-side-icons{
+    margin-right: 20px;
+    font-size: 22px;
+}
+.fa-list-ul{
+    margin-right: 10px;
 }
 .box-num{
     margin-right: 20px;
 }
 
 .box-1{
-    width: 33%;
-    background-color: rgba(236, 145, 26, 0.418);
+    width: 32%;
+    background-color: rgba(236, 145, 26, 0.118);
     display: inline-block;
     border-radius: 10px;
+    margin: 0px 10px 10px 0px;
 }
 .box-top{
     display: flex;
@@ -124,19 +153,142 @@ body{
 .box-bottom-perfil{
     padding: 10px;
 }
+
+  
 .box-bottom-bottom p{
     padding: 10px;
+    background-color: black;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.icons{
+    background-color: black;
+    border-radius: 50%;
+    height: 18px;
+    width: 20px;
+    text-align: center;
 }
 .box-2{
-    width: 33%;
-    background-color: rgba(64, 26, 236, 0.418);
+    width: 32%;
+    background-color: rgba(64, 26, 236, 0.144);
     display: inline-block;
     border-radius: 10px;
+    margin: 0px 10px 10px 0px;
 }
 .box-3{
-    width: 33%;
-    background-color: rgba(29, 26, 236, 0.418);
+    width: 32%;
+    background-color: rgba(29, 26, 236, 0.118);
     display: inline-block;
     border-radius: 10px;
+    margin: 0px 10px 10px 0px;
 }
+.box-4{
+    width: 32%;
+    background-color: rgba(236, 26, 236, 0.118);
+    display: inline-block;
+    border-radius: 10px;
+    margin: 0px 10px 10px 0px;
+}
+.box-5{
+    width: 32%;
+    background-color: rgba(43, 236, 26, 0.148);
+    display: inline-block;
+    border-radius: 10px;
+    margin: 0px 10px 10px 0px;
+}
+.box-6{
+    width: 32%;
+    background-color: rgba(229, 233, 20, 0.141);
+    display: inline-block;
+    border-radius: 10px;
+    margin: 0px 10px 10px 0px;
+}
+.i1{
+    color: rgba(236, 145, 26);
+}
+.i2{
+    color: rgba(64, 26, 236 );
+}
+.i3{
+    color:rgba(29, 26, 236);
+}
+.i4{
+    color: rgba(236, 26, 236);
+}
+.i5{
+    color: rgba(43, 236, 26);
+}
+.i6{
+    color:rgba(229, 233, 20);
+}
+.bar-progress{
+    z-index: -1;
+}
+.bar-1{
+    background-color:rgba(236, 145, 26);
+    width: 60%;
+    z-index: 1;
+}
+.bar-2{
 
+}
+.bar-3{
+
+}
+.bar-4{
+
+}
+.bar-5{
+
+}
+.bar-6{
+
+}
+/* Right side*/
+
+.right-side{
+    width: 27%;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+.m1{
+    display: flex;
+    margin-top: 50px;
+}
+.depoimento{
+    margin-left: 15px;
+}
+.depoimento p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.depoimento-alinhamento{
+    display: flex;
+    justify-content: space-between;
+}
+.m2{
+    display: flex;
+    margin-top: 50px;
+}
+.m3{
+    display: flex;
+    margin-top: 50px;
+}
+.m4{
+    display: flex;
+    margin-top: 50px;
+}
+.m5{
+    display: flex;
+    margin-top: 50px;
+}
+.m6{
+    display: flex;
+    margin-top: 50px;
+}
+.data{
+    float: right;
+}
