@@ -1,0 +1,21 @@
+
+
+
+.boxes{
+    width: 100%;
+}
+.box-top{
+    margin-bottom: 0;
+    padding: 10px;
+}
+.box-centralizada{
+    display: flex;
+    align-items: baseline;
+    padding: 10px;
+}
+.box-bottom{
+    width: 86%;
+}
+.img{
+    display: none;
+}

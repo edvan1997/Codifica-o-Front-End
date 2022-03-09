@@ -187,7 +187,7 @@ body{
 }
 .box-2{
     width: 32%;
-    background-color: rgba(64, 26, 236, 0.144);
+    background-color: rgb(54 132 229 / 14%);
     display: inline-block;
     border-radius: 10px;
     margin: 0px 1% 1% 0px;
@@ -221,13 +221,13 @@ body{
     margin: 0px 1% 1% 0px;
 }
 .boxes{
-
+    border-radius: 20px;
 }
 .i1{
     color: rgba(236, 145, 26);
 }
 .i2{
-    color: rgba(64, 26, 236 );
+    color: rgb(54 132 229 / 21%);
 }
 .i3{
     color:rgba(29, 26, 236);
@@ -250,7 +250,7 @@ body{
 
 }
 .bar-2{
-    border:1px solid rgba(64, 26, 236 );
+    border:1px solid rgb(54 132 229 / 21%);
     width: 50%;
 }
 .bar-3{
@@ -273,7 +273,7 @@ body{
     color:rgba(236, 145, 26); 
 }
 #day-2{
-    color:rgba(64, 26, 236 );
+    color:rgb(54 132 229 / 21%);
 }
 #day-3{
     color:rgba(29, 26, 236);
@@ -336,7 +336,12 @@ body{
     float: right;
 }
 
-
+    /* Links */
+.links{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
 
 /* Responsividade */
 @media (max-width:1364px){
