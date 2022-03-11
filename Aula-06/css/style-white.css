@@ -41,7 +41,7 @@ body.active{
 .top-nav-search h1{
     margin-right: 20px;
 }
-.top-nav-search input.active{
+.top-nav-search input.act{
     border: none;
     border-radius: 25px;
     width: 300px;
@@ -52,14 +52,15 @@ body.active{
 .top-nav-icon{
     margin-left: auto;
 }
+.active, .dark{
+    color: black;
+    background: white;
+}
 .icons-top{
     margin-right: 10px;
 }
-.white{
-    color: white;
-}
-.white.active{
-    color: white;
+.noturno.active{
+    color: black;
 }
 .top-nav-perfil{
     text-align: center;

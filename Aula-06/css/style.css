@@ -11,6 +11,11 @@
 body{
     background-color: rgb(8,8,8);
     font-family: Roboto,arial;
+    color: rgb(255, 255, 255);
+}
+body.active{
+    background: rgb(220, 241, 250);
+    color: black;
 }
 .top-nav-bar{
     display: flex;
@@ -22,6 +27,9 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 5%;
+}
+.top-nav-bar.active{
+    color: black;
 }
 .top-nav-search{
     display: flex;
@@ -55,11 +63,9 @@ body{
 .icons-top{
     margin-right: 10px;
 }
-.white{
-    color: white;
-}
-.white.active{
-    color: white;
+.noturno.active{
+    color: black;
+
 }
 .top-nav-perfil{
     text-align: center;
@@ -82,6 +88,10 @@ body{
     color: white;
     font-size: 30px;
 }
+.side-icons.active{
+ color: black;
+}
+
 .bloco-conjunto{
     display: flex;
 }
@@ -96,7 +106,9 @@ body{
     height: 20px;
 }
 /* left side box */
-
+.side-icons.active{
+    color: black;
+}
 .left-side{
     width: 60%;
     background-color: black;
@@ -107,11 +119,20 @@ body{
     display: inline-block;
     margin-right: 10px;
 }
+.left-side.active{
+    color: black;
+    background-color: white;
+}
+/* .active, .dark{
+ color: black;
+ background-color: white;
+} */
 .left-side-top{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .progress{
     display: flex;
     justify-content: space-between;
@@ -128,11 +149,32 @@ body{
     margin-right: 20px;
     font-size: 22px;
 }
+.lef-icon-1:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.lef-icon-2:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
 .fa-list-ul{
     margin-right: 10px;
 }
 .box-num{
     margin-right: 20px;
+}
+.active{
+  
+    color: black;
+}
+.box-top.active{
+    color: black;
 }
 
 .box-1{
@@ -148,6 +190,25 @@ body{
     margin-bottom: 10px;
     padding: 20px;
 }
+.boxes.active{
+    color: black;
+
+}
+.buscador.active{
+    color: white;
+}
+/* .icon1.active{
+    color: black;
+}
+.icon2.active{
+    color: black;
+}
+.ico3.active{
+    color: black;
+}
+.ico4.active{
+    color: black;
+} */
 .box-center{
     text-align: center;
 }
@@ -303,6 +364,10 @@ body{
     padding: 10px;
     border-radius: 15px;
 }
+.right-side.active{
+    background-color: white;
+    color: black;
+}
 .message{
     padding: 7px;
 }
@@ -354,7 +419,12 @@ body{
 .links{
     text-decoration: none;
     list-style: none;
-    color: white;
+    color: rgb(255, 255, 255);
+}
+.links.active{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(0, 0, 0);
 }
 
 /* Responsividade */
