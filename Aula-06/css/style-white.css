@@ -59,6 +59,16 @@ body.active{
 .icons-top{
     margin-right: 10px;
 }
+.lef-side-icons.active{
+    color: white;
+
+}
+.lef-icon-1.active{
+    background: black;
+}
+.lef-icon-2.active{
+    background: black;
+}
 .noturno.active{
     color: black;
 }
