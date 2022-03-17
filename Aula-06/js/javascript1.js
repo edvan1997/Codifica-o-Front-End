@@ -18,6 +18,7 @@ if(ativo == 0){
         document.querySelector('.top-nav-bar').classList.toggle('active')
         document.querySelector('.links').classList.toggle('active')
         document.querySelector('.boxes').classList.toggle('active')
+        document.querySelector('.fa-plus').classList.toggle('active')
         document.querySelector('.buscador').classList.toggle('active')
         var icone =document.querySelectorAll('.side-icons')
         for(i = 0; i < icone.length; i++){

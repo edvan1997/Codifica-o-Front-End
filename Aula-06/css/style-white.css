@@ -52,6 +52,7 @@ body.active{
 .top-nav-icon{
     margin-left: auto;
 }
+
 .active, .dark{
     color: black;
     background: white;

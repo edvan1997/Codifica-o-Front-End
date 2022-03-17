@@ -60,6 +60,19 @@ body.active{
 .top-nav-icon{
     margin-left: auto;
 }
+.fa-plus{
+    background: white;
+    color: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 22px;
+    text-align: center;
+}
+.fa-plus.active{
+    background:black;
+    color: white;
+}
 .icons-top{
     margin-right: 10px;
 }
@@ -192,9 +205,13 @@ body.active{
     color: black;
 
 }
+.busca{
+    display: none;
+}
 .buscador.active{
     color: white;
 }
+
 /* .icon1.active{
     color: black;
 }
@@ -548,8 +565,25 @@ body.active{
     display: none;
     
 }
+.notifica{
+    margin-top: 4%;
+    height: 21%;
+    transition: .7s ease-in-out;
+    padding: 10px;
+    border-radius: 10px;
+    background: #0080803b;
+}
+.notifica:hover{
+    cursor: pointer;
+    background-color: rgba(240, 248, 255, 0.4);
+    transition: .7s ease-in-out;
+}
 .fa-x{
-
+    margin-bottom: 5%;
+}
+.fa-x:hover{
+    cursor: pointer;
+    color: red;
 }
 
 .contato h5{
@@ -557,11 +591,46 @@ body.active{
     font-size: 15px;
     margin-bottom: 10px;
 }
-.conteudo p{
-    
-}
+
 .conteudo-data{
     color: black;
     float: right;
     border-bottom: 2px  solid black;
+}
+
+/* PERFIL CONFIG*/
+
+.perfil-config{
+    width: 10%;
+    height: 20%;
+    background-color: #1d4452;
+    position: absolute;
+    right: 3%;
+    top: 8%;
+    border-radius: 10px;
+    color: rgb(255, 251, 251);
+    padding: 15px;
+    display: none;
+}
+.perfil-config h5{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.p1{
+    height: 10px;
+}
+.edita{
+    display: flex;
+    margin-top: 10%;
+    align-items: center;
+}
+.configurar{
+    display: flex;
+    margin-top: 10%;
+    align-items: center;
+}
+.sair{
+    display: flex;
+    margin-top: 35%;
+    align-items: center;
 }

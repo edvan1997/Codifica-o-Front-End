@@ -17,7 +17,7 @@ seleciona_quadrado.addEventListener('click', function(){
     }
 })
 
-
+/*NOTIFICAÇÂO*/
 let notifica = document.querySelector('.global-notificacao')
 let sino = document.querySelector('.fa-bell')
 let fecha = document.querySelector('.fa-x')
@@ -27,4 +27,32 @@ sino.addEventListener('click', function(){
 })
 fecha.addEventListener('click', function(){
     notifica.style.display = 'none'
+})
+
+/* BUSCADOR*/
+let busca = document.querySelector('.busca')
+let plus = document.querySelector('.fa-plus')
+
+plus.addEventListener('click', function(){
+    busca.classList.toggle('busca')
+   
+})
+
+// plus.addEventListener('click', function(){
+//     busca.style.display = 'block'
+// })
+// plus.addEventListener('click', function(){
+//     busca.style.display = 'none'
+// })
+
+/*PERFIL CONFIG*/
+let perfil = document.querySelector('.perfil-config')
+let butao = document.querySelector('.top-nav-perfil')
+let sair = document.querySelector('.x1')
+
+butao.addEventListener('click', function(){
+    perfil.style.display = 'block'        
+})
+sair.addEventListener('click', function(){
+    perfil.style.display = 'none'
 })
