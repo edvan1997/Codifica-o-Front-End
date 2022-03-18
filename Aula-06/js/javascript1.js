@@ -20,6 +20,7 @@ if(ativo == 0){
         document.querySelector('.boxes').classList.toggle('active')
         document.querySelector('.fa-plus').classList.toggle('active')
         document.querySelector('.buscador').classList.toggle('active')
+        document.querySelector('.color').classList.toggle('active')
         var icone =document.querySelectorAll('.side-icons')
         for(i = 0; i < icone.length; i++){
             icone[i].classList.toggle('active')

@@ -182,10 +182,7 @@ body.active{
 .box-num{
     margin-right: 20px;
 }
-.active{
-  
-    color: black;
-}
+
 .box-top.active{
     color: black;
 }
@@ -226,6 +223,14 @@ body.active{
 } */
 .box-center{
     text-align: center;
+
+}
+.color{
+    text-decoration: none;
+    color: white;
+}
+.color:active{
+    color: black !important;
 }
 .bar-progress{
     width: 100%;
@@ -633,4 +638,17 @@ body.active{
     display: flex;
     margin-top: 35%;
     align-items: center;
+}
+/* GRAFICO*/
+
+.chart {
+    border: 3px solid royalblue;
+  }
+  
+  .active{
+  
+    color: black;
+}
+h2 .active{
+    color: black;
 }
